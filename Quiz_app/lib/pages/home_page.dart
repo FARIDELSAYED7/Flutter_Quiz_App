@@ -21,9 +21,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     showTotalScore = myTotalScore >= resultedScore;
     return Scaffold(
-      // appBar: AppBar(
-      //   title: const Text('Home'),
-      // ),
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: !showTotalScore
             ? Padding(
